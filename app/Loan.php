@@ -24,6 +24,6 @@ class Loan extends Model
      * @var array
      */
     protected $fillable = [
-        'customerId','title','amount', 'duration','repayment_frequency','interest_rate', 'arrangement_fee','install_amount'
+        'customerId','title','amount', 'duration','repayment_frequency','interest_rate', 'arrangement_fee','install_amount','status'
     ];
 }
